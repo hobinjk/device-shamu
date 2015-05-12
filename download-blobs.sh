@@ -40,3 +40,5 @@ CSUM_LIST="$PWD/blob-shasums"
 
 cd ../../.. &&
 install_blobs nexus-6 "$SHAMU_BLOBS" "$CSUM_LIST"
+
+sed -i '/BuaContactAdapter/d' vendor/moto/shamu/device-vendor.mk
