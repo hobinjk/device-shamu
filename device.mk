@@ -162,6 +162,10 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     libaudio-resampler
 
+# for Gecko
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.moz.has_home_button=0
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.audio.monitorRotation=true
 
