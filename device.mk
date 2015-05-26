@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
 # Input device files for shamu
 PRODUCT_COPY_FILES += \
     device/moto/shamu/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+    device/moto/shamu/qpnp_pon.kl:system/usr/keylayout/qpnp_pon.kl \
     device/moto/shamu/apq8084-taiko-tfa9890_stereo_co_Button_Jack.kl:system/usr/keylayout/apq8084-taiko-tfa9890_stereo_co_Button_Jack.kl \
 	device/moto/shamu/atmel_mxt_ts.idc:system/usr/idc/atmel_mxt_ts.idc
 
