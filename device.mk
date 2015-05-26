@@ -166,6 +166,8 @@ PRODUCT_PACKAGES += \
 # for Gecko
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.moz.has_home_button=0
+PRODUCT_COPY_FILES += \
+    device/moto/shamu/volume.cfg:system/etc/volume.cfg
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.audio.monitorRotation=true
