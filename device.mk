@@ -26,6 +26,10 @@ else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
+GAIA_DEV_PIXELS_PER_PX := 2.25
+
+# https://github.com/SlimRoms/device_motorola_shamu/commit/dd20e65aeb9d2fe2e929f1d130adc87f3760cb80
+BOARD_USES_QC_TIME_SERVICES := true
 
 PRODUCT_COPY_FILES := \
     $(LOCAL_KERNEL):kernel
