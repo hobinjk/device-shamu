@@ -368,3 +368,6 @@ PRODUCT_OEM_PROPERTIES := \
 PRODUCT_COPY_FILES += \
     device/moto/shamu/qcril.db:system/etc/ril/qcril.db
 
+TARGET_DEVICE_BLOBS := vendor/broadcom/shamu/device-partial.mk \
+                       vendor/moto/shamu/device-partial.mk \
+                       vendor/qcom/shamu/device-partial.mk
